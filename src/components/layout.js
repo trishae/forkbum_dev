@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import { Container } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
 
 import Header from "./header"
 
@@ -30,12 +30,14 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
       <Container>
-        <main>{children}</main>
-      </Container>
-      <Container>
-        <footer>
-          © {new Date().getFullYear()}
-        </footer>
+        <Row>
+          <Col>{children}</Col>
+        </Row>
+        <Row>
+          <footer>
+            © {new Date().getFullYear()}
+          </footer>
+        </Row>
       </Container>
     </>
   )

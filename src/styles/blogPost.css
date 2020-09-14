@@ -1,0 +1,27 @@
+.blog-post {
+    margin-bottom: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid #bdb8b4;
+}
+
+.blog-post .blog-post-title {
+    font-size: 3em;
+    margin: 0;
+}
+
+.blog-post .blog-post-description {
+    font-size: 1.5em;
+}
+
+.blog-post .blog-post-misc {
+    font-size: 1em;
+}
+
+.blog-post a {
+    background-color: #bdb8b4;
+    color: #343435;
+    padding: 16px 24px;
+    text-decoration: none;
+    margin-top: 16px;
+    display: inline-block;
+}
