@@ -23,6 +23,12 @@ const Header = ({ siteTitle }) => (
             <Nav.Item as="li">
               <Link to="/morsels" className="nav-link custom-nav-item" activeClassName="active">morsels</Link>
             </Nav.Item>
+            <Nav.Item as="li">
+              <Link to="/playground" className="nav-link custom-nav-item" activeClassName="active">playground</Link>
+            </Nav.Item>
+            <Nav.Item as="li">
+              <Link to="/contact" className="nav-link custom-nav-item" activeClassName="active">contact</Link>
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
