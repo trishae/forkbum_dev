@@ -34,7 +34,7 @@ export default (props) => {
         let size = _noise_size;
         let animationSpeed = p5.windowWidth/_animation_speed_constant; //20/100; //100
         let backgroundColor = '#343435';
-        let mainColor = '#B51F07'; //'#934838';
+        let mainColor = '#934838'; //'#934838'; #B51F07
         let radius = p5.windowWidth/_radius_constant; //40; //400
 
         _canvasDiv = document.getElementById('sketch-container');

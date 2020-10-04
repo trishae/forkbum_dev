@@ -8,16 +8,18 @@ import './../styles/blogPost.css'
 
 const BlogPost = ({ title, author, date, description, path }) => (
     <Container className="blog-post">
+        <Link to={path} className="blog-post-link" style={{textDecoration:'none'}}>
         <Row className="blog-post-title">
             { title }
         </Row>
+        </Link>
         <Row className="blog-post-description">
             { description }
         </Row>
         <Row className="blog-post-misc">
-            Written by { author } on { date }.
+            posted { date }
         </Row>
-        <Link to={ path }>Read more</Link>
+        {/* <Link to={ path }>Read more</Link> */}
     </Container>
 )
 
