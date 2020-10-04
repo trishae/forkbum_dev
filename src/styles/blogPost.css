@@ -1,0 +1,25 @@
+.blog-post {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border-bottom: 2px solid #bdb8b4; */
+}
+
+.blog-post .blog-post-title {
+    font-size: 20pt;
+    /* margin: 0; */
+}
+
+.blog-post .blog-post-description {
+    font-size: 12pt;
+}
+
+.blog-post .blog-post-misc {
+    font-size: 12pt;
+}
+
+a :hover{
+    color: #934838;
+    text-decoration: none;
+}
