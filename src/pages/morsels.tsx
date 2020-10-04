@@ -10,11 +10,11 @@ import './../styles/page.css'
 const MorselsPage = (props: PageProps) => (
   <Layout>
     <SEO title="Morsels" />
-    <Container>
-        <Row className="custom-page-header">
+    <Container className="page-frame">
+        <Row className="page-heading">
             morsels
         </Row>
-        <Row className="custom-page-paragraph">
+        <Row className="page-body">
             morsels
         </Row>
     </Container>

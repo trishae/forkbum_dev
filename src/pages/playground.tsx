@@ -10,11 +10,11 @@ import './../styles/page.css'
 const PlaygroundPage = (props: PageProps) => (
   <Layout>
     <SEO title="Playground" />
-    <Container>
-        <Row className="custom-page-header">
+    <Container className="page-frame">
+        <Row className="page-heading">
             playground
         </Row>
-        <Row className="custom-page-paragraph">
+        <Row className="page-body">
         playground
         </Row>
     </Container>

@@ -1,7 +1,6 @@
 import React from "react"
 import Sketch from "react-p5"
 
-import './../styles/sketch.css'
 
 export default (props) => {
     // https://www.openprocessing.org/sketch/783460

@@ -10,11 +10,11 @@ import './../styles/page.css'
 const AboutPage = (props: PageProps) => (
   <Layout>
     <SEO title="About Trish" />
-    <Container>
-        <Row className="custom-page-header">
+    <Container className="page-frame">
+        <Row className="page-heading">
             about
         </Row>
-        <Row className="custom-page-paragraph">
+        <Row className="page-body">
             about
         </Row>
     </Container>
