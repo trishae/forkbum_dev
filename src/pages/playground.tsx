@@ -9,13 +9,13 @@ import './../styles/page.css'
 
 const PlaygroundPage = (props: PageProps) => (
   <Layout>
-    <SEO title="Playground" />
+    <SEO title="playground" />
     <Container className="page-frame">
         <Row className="page-heading">
-            playground
+          playground
         </Row>
         <Row className="page-body">
-        playground
+          under construction.... stay tuned.
         </Row>
     </Container>
   </Layout>
