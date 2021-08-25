@@ -1,9 +1,6 @@
 ---
-path: '/blog/001'
-date: '2020-09-14'
-title: 'Test ??'
-author: 'isabel'
-description: '000???'
+path: '/about'
+title: 'About'
 ---
 
 Lorem ipsum...

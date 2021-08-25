@@ -1,14 +1,34 @@
 .page-frame {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     padding-left: 60px;
     padding-right: 60px;
 }
 
+.page-body {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 12pt;
+}
+
+.page-post-datetimestamp {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .page-heading {
+    padding-left: 15px;
+    padding-right: 15px;
     font-size: 20pt;
 }
 
-.page-body {
-    font-size: 12pt;
+h4 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+pre code {
+    background-color: #ecff527a;
 }

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `isabel`,
+    title: `fB0mb`,
     description: `forkbum's personal website`,
     author: `@forkbum`,
   },
@@ -16,7 +16,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `blog`,
+        name: `pages`,
         path: `${__dirname}/src/pages/blog`,
       },
     },

@@ -11,7 +11,7 @@ import './../styles/page.css'
 //const BlogPage = (props: PageProps, {data}) => (
 const Blog = ({data}) => (
   <Layout>
-    <SEO title="Blog" />
+    <SEO title="blog" />
     <Container className="page-frame">
         <Row className="page-heading">
             blog
@@ -39,9 +39,11 @@ const Blog = ({data}) => (
 
 export default Blog
 
-export const AllBlogsQuery = graphql`
-    query SiteQuery {
-        allMarkdownRemark {
+export const blogPageQuery = graphql`
+    query BlogPageQuery {
+        allMarkdownRemark (sort: { 
+            fields: [frontmatter___date]
+            order: DESC }) { 
             edges {
                 node {
                     frontmatter {
