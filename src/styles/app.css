@@ -5,3 +5,17 @@
     color: #bdb8b4;
     font-family: 'Oxygen Mono', monospace;
 }
+
+a {
+    color: #934838;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
