@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{OooO:function(e,a,t){},x9Gi:function(e,a,t){"use strict";t.r(a);var n=t("q1tI"),s=t.n(n),l=t("7vrA"),r=t("3Z9Z"),o=t("Bl7J"),c=t("vrFN");t("OooO");a.default=function(e){return s.a.createElement(o.a,null,s.a.createElement(c.a,{title:"Morsels"}),s.a.createElement(l.a,{className:"page-frame"},s.a.createElement(r.a,{className:"page-heading"},"morsels"),s.a.createElement(r.a,{className:"page-body"},"morsels")))}}}]);
+//# sourceMappingURL=component---src-pages-morsels-tsx-19b6df4338291ebbbb11.js.map
