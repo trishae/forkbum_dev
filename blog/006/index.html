@@ -37,13 +37,13 @@
 <li>@INDIRECT - gets the referenced location (instead of direct value) of a specified cell range</li>
 </ul>
 <p>Putting all these components together, we can construct the formulas required to make calculations on the horizontal position and depth readings. For the first calculations on the third row, prior to dragging the fill handle on the rest of the rows, cell B3, C3, and D3 can be filled with the following formulas, respectively:</p>
-<pre><code>=IF(LEFT($A3, FIND( " ",$A3) - 1 )= "forward",@INDIRECT("B" &#x26; ROW( -1) + RIGHT(
+<pre><code>=IF(LEFT($A3, FIND( " ",$A3) - 1 )= "forward",@INDIRECT("B" &#x26; ROW() -1) + RIGHT(
 $A3, FIND(" ",$A3)-LEN(LEFT ($A3, FIND(" ",$A3) - 1 ))),$B2)
 
-=IF(LEFT($A3, FIND( " "$A3) - 1 ) = "down",@INDIRECT("C" &#x26; ROWO -1) + RIGHT(
-$A3, FIND(" ",SA3)-LEN(LEFT ($A3, FIND( " ",SA3) - 1 ))),IF(LEFT (SA3, FIND(" ",SA3)
--1)= "up",@INDIRECT("C" &#x26; ROW() -1) - RIGHT($A3, FIND(" ",SA3)-LEN(LEFT(SA3,
-FIND(" " SA3) - 1 ))),SC2))
+=IF(LEFT($A3, FIND( " "$A3) - 1 ) = "down",@INDIRECT("C" &#x26; ROW() -1) + RIGHT(
+$A3, FIND(" ",$A3)-LEN(LEFT ($A3, FIND( " ",$A3) - 1 ))),IF(LEFT ($A3, FIND(" ",$A3)
+-1)= "up",@INDIRECT("C" &#x26; ROW() -1) - RIGHT($A3, FIND(" ",$A3)-LEN(LEFT($A3,
+FIND(" ", $A3) - 1 ))),$C2))
 
 =PRODUCT($B3,$C3)
 </code></pre>
